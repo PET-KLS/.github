@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/petkls-logo.png" width="150" alt="PETKLS logo">
+  <img src="./assets/petkls-icon.jpg" width="115" alt="PETKLS icon">
 </p>
 
 <h1 align="center">PETKLS</h1>
