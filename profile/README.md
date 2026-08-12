@@ -9,13 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://creativecommons.org/licenses/by/4.0/">
-    <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
-         alt="Creative Commons Attribution 4.0 International">
-  </a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/article-under%20review-blue"
        alt="Article under review">
   <img src="https://img.shields.io/badge/modality-amyloid--PET-8A2BE2"
@@ -28,6 +21,13 @@
        alt="Generalized additive modelling">
   <img src="https://img.shields.io/badge/code-BSD--3--Clause-2F80ED"
        alt="BSD 3-Clause code licence">
+</p>
+
+<p align="center">
+  <a href="https://creativecommons.org/licenses/by/4.0/">
+    <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
+         alt="Creative Commons Attribution 4.0 International">
+  </a>
 </p>
 
 ## About PETKLS
