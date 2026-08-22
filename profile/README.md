@@ -19,8 +19,7 @@
        alt="Network science">
   <img src="https://img.shields.io/badge/modelling-GAM-4C956C"
        alt="Generalized additive modelling">
-  <img src="https://img.shields.io/badge/code-BSD--3--Clause-2F80ED"
-       alt="BSD 3-Clause code licence">
+
 </p>
 
 <p align="center">
