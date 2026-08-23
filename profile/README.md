@@ -214,9 +214,13 @@ Using, citing, forking or modifying PETKLS does not automatically confer authors
 
 ## Licence
 
-### Source code
+[![CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-2b6cb0.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-PETKLS source code is distributed under the [BSD 3-Clause Licence](https://opensource.org/license/bsd-3-clause).
+© 2026 Sara Monteiro and the PETKLS contributors.
+
+Except where otherwise indicated, this work is licensed under the [Creative Commons Attribution 4.0 International Licence](https://creativecommons.org/licenses/by/4.0/).
+
+You may share, adapt, and build upon this material for any purpose, including commercial use, provided that you give appropriate credit, link to the licence, and indicate whether changes were made.
 
 Reuse and modification are permitted provided that:
 
