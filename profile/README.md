@@ -41,58 +41,57 @@ Regional PET-intensity distributions are compared using symmetric Kullback–Lei
 PETKLS is organized as three successive and interoperable repositories.
 
 <table>
-  <tr>
-    <td width="32%" align="center">
-      <h3>1 · KLS Computation</h3>
-      <p>
-        <a href="https://github.com/PET-KLS/PETKLS_pipeline"><code>PETKLS_pipeline</code></a>
-      </p>
-      <p>
+  <thead>
+    <tr>
+      <th align="center">1 · KLS computation</th>
+      <th align="center">2 · Graph analysis</th>
+      <th align="center">3 · Spatiotemporal modelling</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/PET-KLS/PETKLS_pipeline">
+          <strong>PETKLS_pipeline</strong>
+        </a>
+        <br><br>
         Regional PET distributions<br>
         ↓<br>
         Symmetric KLD<br>
         ↓<br>
         KLS transformation
-      </p>
-      <p><strong>Output</strong><br>Individual KLS matrices</p>
-    </td>
-
-    <td width="2%" align="center">→</td>
-
-    <td width="32%" align="center">
-      <h3>2 · Graph Analysis</h3>
-      <p>
-        <a href="https://github.com/PET-KLS/Topology_pipeline"><code>Topology_pipeline</code></a>
-      </p>
-      <p>
+        <br><br>
+        <strong>Output:</strong> individual KLS matrices
+      </td>
+      <td align="center">
+        <a href="https://github.com/PET-KLS/Topology_pipeline">
+          <strong>Topology_pipeline</strong>
+        </a>
+        <br><br>
         Weighted similarity networks<br>
         ↓<br>
-        Edge, nodal and global metrics<br>
+        Edge, nodal, and global metrics<br>
         ↓<br>
         Network phenotype assembly
-      </p>
-      <p><strong>Output</strong><br>Individual network phenotypes</p>
-    </td>
-
-    <td width="2%" align="center">→</td>
-
-    <td width="32%" align="center">
-      <h3>3 · Spatiotemporal Modelling</h3>
-      <p>
-        <a href="https://github.com/PET-KLS/Spatiotemporal_microstructure_gradients"><code>Spatiotemporal_microstructure_gradients</code></a>
-      </p>
-      <p>
+        <br><br>
+        <strong>Output:</strong> individual network phenotypes
+      </td>
+      <td align="center">
+        <a href="https://github.com/PET-KLS/Spatiotemporal_microstructure_gradients">
+          <strong>Spatiotemporal_microstructure_gradients</strong>
+        </a>
+        <br><br>
         GAM disease-time trajectories<br>
         ↓<br>
         Stage-specific PET-KLS maps<br>
         ↓<br>
         Biological spatial covariation
-      </p>
-      <p><strong>Output</strong><br>Biological associations across disease time</p>
-    </td>
-  </tr>
+        <br><br>
+        <strong>Output:</strong> biological associations across disease time
+      </td>
+    </tr>
+  </tbody>
 </table>
-
 
 The biological reference maps are independent resources. They enter only after GAM modelling has generated stage-specific regional PET-KLS patterns.
 
