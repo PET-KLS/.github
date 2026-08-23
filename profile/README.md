@@ -214,7 +214,7 @@ Using, citing, forking or modifying PETKLS does not automatically confer authors
 
 ## Licence
 
-[![CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-2b6cb0.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
 © 2026 Sara Monteiro and the PETKLS contributors.
 
@@ -224,24 +224,12 @@ You may share, adapt, and build upon this material for any purpose, including co
 
 Reuse and modification are permitted provided that:
 
+- Appropriate credit is given
 - Redistributions of source code retain the copyright notice, licence conditions and disclaimer
 - Binary redistributions reproduce these notices in their documentation or accompanying materials
 - The names of PETKLS, its authors and contributors are not used to endorse or promote derived products without prior written permission
 
 The complete legally binding terms are provided in each repository’s `LICENSE` file.
-
-### Documentation and original visual materials
-
-[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
-
-Unless otherwise indicated, original PETKLS documentation, diagrams and visual materials are licensed under the [Creative Commons Attribution 4.0 International Licence](https://creativecommons.org/licenses/by/4.0/).
-
-These materials may be shared and adapted provided that:
-
-- Appropriate credit is given
-- A link to the licence is supplied
-- Modifications are indicated
-- Attribution does not imply endorsement by PETKLS or its contributors
 
 ## Maintainer
 
