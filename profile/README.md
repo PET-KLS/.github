@@ -9,17 +9,16 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/article-under%20review-blue"
+  <img src="https://img.shields.io/badge/article-under%20review-blue?style=flat-square"
        alt="Article under review">
-  <img src="https://img.shields.io/badge/modality-amyloid--PET-8A2BE2"
+  <img src="https://img.shields.io/badge/modality-amyloid--PET-8A2BE2?style=flat-square"
        alt="Amyloid PET">
-  <img src="https://img.shields.io/badge/method-PET--KLS-008B8B"
+  <img src="https://img.shields.io/badge/method-PET--KLS-008B8B?style=flat-square"
        alt="PET KLS">
-  <img src="https://img.shields.io/badge/domain-network%20science-D97706"
+  <img src="https://img.shields.io/badge/domain-network%20science-D97706?style=flat-square"
        alt="Network science">
-  <img src="https://img.shields.io/badge/modelling-GAM-4C956C"
+  <img src="https://img.shields.io/badge/modelling-GAM-4C956C?style=flat-square"
        alt="Generalized additive modelling">
-
 </p>
 
 <p align="center">
