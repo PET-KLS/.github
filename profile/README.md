@@ -36,10 +36,6 @@ Regional PET-intensity distributions are compared using symmetric Kullback–Lei
 
 > **Interpretation:** PET-KLS networks quantify pairwise distributional similarity between the estimated probability distributions of voxelwise amyloid-PET intensity values across brain regions.
 
-## Pipeline
-
-The PETKLS workflow is organized into three successive repositories:
-
 ## Pipeline and repositories
 
 PETKLS is organized as three successive and interoperable repositories.
@@ -49,7 +45,7 @@ PETKLS is organized as three successive and interoperable repositories.
     <td width="32%" align="center">
       <h3>1 · KLS Computation</h3>
       <p>
-        <a href="REPOSITORY-1-URL"><code>petkls-computation</code></a>
+        <a href="https://github.com/PET-KLS/PETKLS_pipeline"><code>PETKLS_pipeline</code></a>
       </p>
       <p>
         Regional PET distributions<br>
@@ -60,11 +56,13 @@ PETKLS is organized as three successive and interoperable repositories.
       </p>
       <p><strong>Output</strong><br>Individual KLS matrices</p>
     </td>
+
     <td width="2%" align="center">→</td>
+
     <td width="32%" align="center">
       <h3>2 · Graph Analysis</h3>
       <p>
-        <a href="REPOSITORY-2-URL"><code>petkls-graph</code></a>
+        <a href="https://github.com/PET-KLS/Topology_pipeline"><code>Topology_pipeline</code></a>
       </p>
       <p>
         Weighted similarity networks<br>
@@ -75,11 +73,13 @@ PETKLS is organized as three successive and interoperable repositories.
       </p>
       <p><strong>Output</strong><br>Individual network phenotypes</p>
     </td>
+
     <td width="2%" align="center">→</td>
+
     <td width="32%" align="center">
       <h3>3 · Spatiotemporal Modelling</h3>
       <p>
-        <a href="REPOSITORY-3-URL"><code>petkls-spatiotemporal</code></a>
+        <a href="https://github.com/PET-KLS/Spatiotemporal_microstructure_gradients"><code>Spatiotemporal_microstructure_gradients</code></a>
       </p>
       <p>
         GAM disease-time trajectories<br>
