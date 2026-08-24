@@ -98,8 +98,8 @@ The biological reference maps are independent resources. They enter only after G
 ```mermaid
 flowchart TD
 
-    A["Amyloid-PET<br/>voxelwise uptake distributions"]
-    B["Individual PET-KLS modelling<br/>Regional distribution similarity"]
+    A["Amyloid-PET voxelwise uptake distributions"]
+    B["Individual PET-KLS modelling: Regional distribution similarity"]
     C["Subject-specific PET-KLS networks"]
 
     D["Network topology"]
@@ -117,7 +117,7 @@ flowchart TD
     G["Microstructural characterization"]
     H["Spatial biological associations"]
 
-    I["Biological interpretation of<br/>amyloid network progression"]
+    I["Biological interpretation of amyloid network progression"]
 
     A --> B --> C
 
@@ -143,17 +143,18 @@ flowchart TD
     G --> I
     H --> I
 
-    classDef pet fill:#DDF4F3,stroke:#008B8B,stroke-width:2px,color:#000;
-    classDef topology fill:#FFF0D9,stroke:#D97706,stroke-width:2px,color:#000;
-    classDef temporal fill:#E8EAFE,stroke:#4F46E5,stroke-width:2px,color:#000;
-    classDef biology fill:#F2E8FA,stroke:#8A2BE2,stroke-width:2px,color:#000;
-    classDef synthesis fill:#E7F4EA,stroke:#4C956C,stroke-width:2px,color:#000;
+    classDef pet fill:#DDF4F3,stroke:#008B8B,stroke-width:2px,color:#000000
+    classDef topology fill:#FFF0D9,stroke:#D97706,stroke-width:2px,color:#000000
+    classDef temporal fill:#E8EAFE,stroke:#4F46E5,stroke-width:2px,color:#000000
+    classDef biology fill:#F2E8FA,stroke:#8A2BE2,stroke-width:2px,color:#000000
+    classDef synthesis fill:#E7F4EA,stroke:#4C956C,stroke-width:2px,color:#000000
 
-    class A,B,C pet;
-    class D,D1,D2,D3 topology;
-    class E,E1,E2 temporal;
-    class G,H biology;
-    class F,I synthesis;
+    class A,B,C pet
+    class D,D1,D2,D3 topology
+    class E,E1,E2 temporal
+    class G,H biology
+    class F,I synthesis
+
 ```
 
 
@@ -165,7 +166,7 @@ The PET-KLS repositories accompany the following manuscript:
 
 The citation will be updated with the final publication year, volume, article identifier and DOI following publication.
 
-## Data provenance and study context
+## Data availability
 
 PET-KLS was developed using amyloid-PET data from the
 [AMYPAD Prognostic and Natural History Study (PNHS)](https://amypad.eu/project/amypad-pnhs/).
@@ -176,6 +177,12 @@ the Alzheimer’s disease risk spectrum. The PNHS brought together participants 
 from several European parent cohorts and provided the amyloid-PET dataset used for the
 PET-KLS analyses.
 
+Related resources:
+
+- [EuroPAD GitHub organization](https://github.com/EuroPAD/)
+- [EuroPAD Neuroimaging](https://github.com/EuroPAD/EuroPAD_Neuroimaging)
+- [AMYPAD](https://amypad.eu/)
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner_dark.png">
@@ -185,8 +192,6 @@ PET-KLS analyses.
          width="100%">
   </picture>
 </p>
-
-## Data availability
 
 Access to the original AMYPAD-PNHS data remains subject to the applicable consortium data-access, ethics and governance procedures.
 
