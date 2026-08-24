@@ -121,19 +121,26 @@ The PET-KLS repositories accompany the following manuscript:
 
 The citation will be updated with the final publication year, volume, article identifier and DOI following publication.
 
-## Relationship to AMYPAD and EuroPAD
+## Data provenance and study context
 
-PET-KLS was developed using amyloid-PET data from the AMYPAD Prognostic and Natural History Study.
+PET-KLS was developed using amyloid-PET data from the
+[AMYPAD Prognostic and Natural History Study (PNHS)](https://amypad.eu/project/amypad-pnhs/).
 
-The PET-KLS repositories constitute a downstream similarity-network analysis and reproducibility layer. They complement the broader AMYPAD and EuroPAD processing resources and do not replace the consortium’s preprocessing, data-access or governance procedures.
+AMYPAD-PNHS was a multicohort European study designed to investigate the value of
+quantitative amyloid-PET imaging for characterising and predicting progression across
+the Alzheimer’s disease risk spectrum. The PNHS brought together participants and data
+from several European parent cohorts and provided the amyloid-PET dataset used for the
+PET-KLS analyses.
 
-Related resources:
-
-- [EuroPAD GitHub organization](https://github.com/EuroPAD/)
-- [EuroPAD Neuroimaging](https://github.com/EuroPAD/EuroPAD_Neuroimaging)
-- [AMYPAD](https://amypad.eu/)
-
-The PET-KLS workflow begins downstream of the authorized image-processing and phenotype-extraction stages documented by these resources.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner_light.png">
+    <img src="./assets/banner_light.png"
+         alt="Amsterdam UMC, EURO-PAD and AMYPAD"
+         width="100%">
+  </picture>
+</p>
 
 ## Data availability
 
