@@ -5,7 +5,7 @@
 <h1 align="center">PETKLS</h1>
 
 <p align="center">
-  <strong>Individual-level amyloid-PET similarity networks for modelling Alzheimer’s disease progression.</strong>
+  <strong>Individual-level amyloid-PET networks quantifying within-subject similarity between regional voxelwise uptake distributions across Alzheimer’s disease progression.</strong>
 </p>
 
 <p align="center">
