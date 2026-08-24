@@ -96,20 +96,64 @@ The biological reference maps are independent resources. They enter only after G
 
 
 ```mermaid
-flowchart LR
-    A["Individual network phenotypes<br/>+ estimated disease time"]
-    B["GAM modelling"]
-    C["Stage-specific<br/>PET-KLS maps"]
+flowchart TD
 
-    D["Independent biological maps<br/>Genes · receptors · cell types"]
-    E["Atlas harmonization<br/>+ spatial null models"]
+    A["Amyloid-PET<br/>voxelwise uptake distributions"]
+    B["Individual PET-KLS modelling<br/>Regional distribution similarity"]
+    C["Subject-specific PET-KLS networks"]
 
-    F["Stage-wise spatial covariation"]
-    G["Biological association profiles<br/>across disease time"]
+    D["Network topology"]
+    E["Disease-time modelling"]
 
-    A --> B --> C --> F
-    D --> E --> F
+    D1["Edges"]
+    D2["Nodal metrics"]
+    D3["Global graph properties"]
+
+    E1["SILA disease time"]
+    E2["GAM trajectories"]
+
+    F["Spatiotemporal network reorganization"]
+
+    G["Microstructural characterization"]
+    H["Spatial biological associations"]
+
+    I["Biological interpretation of<br/>amyloid network progression"]
+
+    A --> B --> C
+
+    C --> D
+    C --> E
+
+    D --> D1
+    D --> D2
+    D --> D3
+
+    E --> E1
+    E --> E2
+
+    D1 --> F
+    D2 --> F
+    D3 --> F
+    E1 --> F
+    E2 --> F
+
     F --> G
+    F --> H
+
+    G --> I
+    H --> I
+
+    classDef pet fill:#DDF4F3,stroke:#008B8B,stroke-width:2px,color:#000;
+    classDef topology fill:#FFF0D9,stroke:#D97706,stroke-width:2px,color:#000;
+    classDef temporal fill:#E8EAFE,stroke:#4F46E5,stroke-width:2px,color:#000;
+    classDef biology fill:#F2E8FA,stroke:#8A2BE2,stroke-width:2px,color:#000;
+    classDef synthesis fill:#E7F4EA,stroke:#4C956C,stroke-width:2px,color:#000;
+
+    class A,B,C pet;
+    class D,D1,D2,D3 topology;
+    class E,E1,E2 temporal;
+    class G,H biology;
+    class F,I synthesis;
 ```
 
 
