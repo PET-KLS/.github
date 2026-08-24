@@ -193,25 +193,26 @@ Related resources:
   </picture>
 </p>
 
-Access to the original AMYPAD-PNHS data remains subject to the applicable consortium data-access, ethics and governance procedures.
+> Access to the original AMYPAD-PNHS data remains subject to the applicable consortium data-access, ethics and governance procedures.
+> Possession of the PET-KLS source code does not grant access to AMYPAD-PNHS data or third-party biological reference resources.
 
-Possession of the PET-KLS source code does not grant access to AMYPAD-PNHS data or third-party biological reference resources.
+## Citation and attribution
 
-## How to cite PET-KLS
-
-If PET-KLS materially contributes to a publication, report, software package or derived method, please cite:
-
-1. The exact PET-KLS repository and release used
-2. The version-specific Zenodo DOI, when available
-3. The associated scientific article
-
-Machine-readable citation information is provided through `CITATION.cff` in each repository.
-
-Until versioned software releases are archived, cite the relevant repository and manuscript as:
-
-> Monteiro S. PET-KLS: PET Kullback–Leibler similarity-network analysis framework. GitHub. Published 2026. Accessed Month Day, Year. Repository URL.
-
-> Monteiro S, Arunachalam P, Pieperhoff L, Tranfa M, Masserini F, Ritchie C, Boada M, Marquié M, Vijverberg J, Vandenberghe R, Hanseeuw BJ, Visser PJ, Frisoni GB, Stephens A, Farrar G, Pardini M, Roccatagliata L, Jessen F, Salvadó G, Vállez-García D, Pontillo G, Luckett ES, Cole JH, Barkhof F, Wink AM, Collij LE, Lorenzini L. Amyloid PET similarity networks in preclinical Alzheimer’s disease reveal early dynamic topological reorganization. *Brain Communications*. Manuscript under review. 2026.
+> [!IMPORTANT]
+> **If PET-KLS materially contributes to a publication, report, software package or derived method, please cite:**
+> If PET-KLS materially contributes to a publication, report, software package or derived method, please cite:
+> 1. The exact PET-KLS repository and release used
+> 2. The version-specific Zenodo DOI, when available
+> 3. The associated scientific article
+> 
+> Machine-readable citation information is provided through `CITATION.cff` in each repository.
+>
+> Until versioned software releases are archived, cite the relevant repository and manuscript as:
+>
+> 
+> > Monteiro S. PET-KLS: PET Kullback–Leibler similarity-network analysis framework. GitHub. Published 2026. Accessed Month Day, Year. Repository URL.
+> >
+> > Monteiro S, Arunachalam P, Pieperhoff L, Tranfa M, Masserini F, Ritchie C, Boada M, Marquié M, Vijverberg J, Vandenberghe R, Hanseeuw BJ, Visser PJ, Frisoni GB, Stephens A, Farrar G, Pardini M, Roccatagliata L, Jessen F, Salvadó G, Vállez-García D, Pontillo G, Luckett ES, Cole JH, Barkhof F, Wink AM, Collij LE, Lorenzini L. Amyloid PET similarity networks in preclinical Alzheimer’s disease reveal early dynamic topological reorganization. *Brain Communications*. Manuscript under review. 2026.
 
 ## Reuse and contributions
 
