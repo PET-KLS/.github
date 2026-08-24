@@ -285,9 +285,3 @@ Reuse and modification are permitted provided that:
 - The names of PET-KLS, its authors and contributors are not used to endorse or promote derived products without prior written permission
 
 The complete legally binding terms are provided in each repository’s `LICENSE` file.
-
-## Maintainer
-
-PET-KLS is developed and maintained by **Sara Monteiro**, with contributions from the collaborators identified in the associated manuscript and repository histories.
-
-For software questions, bug reports, proposed extensions or research-collaboration enquiries, open an issue in the relevant repository or contact the authors.
