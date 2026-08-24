@@ -32,8 +32,7 @@
 
 PET-KLS is a computational neuroimaging framework for constructing and analysing individual-level amyloid-PET similarity networks.
 
-Regional PET-intensity distributions are compared using symmetric Kullback–Leibler divergence and transformed into bounded Kullback–Leibler Similarity (KLS) values. The resulting participant-specific similarity matrices are used to derive graph-based network phenotypes and model their spatial and temporal reorganization across estimated Alzheimer’s disease time.
-
+Regional PET-intensity distributions are compared using symmetric Kullback–Leibler divergence and transformed into bounded Kullback–Leibler Similarity (KLS) values. The resulting participant-specific similarity matrices are used to derive graph-based network phenotypes and model their spatial and temporal reorganization across estimated Alzheimer’s disease time ([SILA](https://github.com/Betthauser-Neuro-Lab/SILA-AD-Biomarker)).
 > **Interpretation:** PET-KLS networks quantify pairwise distributional similarity between the estimated probability distributions of voxelwise amyloid-PET intensity values across brain regions.
 
 ## Pipeline and repositories
