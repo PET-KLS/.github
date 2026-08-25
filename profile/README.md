@@ -200,7 +200,6 @@ Related resources:
 
 > [!IMPORTANT]
 > **If PET-KLS materially contributes to a publication, report, software package or derived method, please cite:**
-> If PET-KLS materially contributes to a publication, report, software package or derived method, please cite:
 > 1. The exact PET-KLS repository and release used
 > 2. The version-specific Zenodo DOI, when available
 > 3. The associated scientific article
