@@ -50,7 +50,7 @@ PET-KLS is organized as three successive and interoperable repositories.
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://github.com/PET-KLS/PET-KLS_pipeline">
+        <a href="https://github.com/PET-KLS/PETKLS_pipeline">
           <strong>PET-KLS_pipeline</strong>
         </a>
         <br><br>
