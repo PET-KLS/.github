@@ -101,68 +101,7 @@ PET-KLS is organized as three successive and interoperable repositories.
 
 The biological reference maps are independent resources. They enter only after GAM modelling has generated stage-specific regional PET-KLS patterns.
 
-
-```mermaid
-flowchart TD
-
-    A["Amyloid-PET voxelwise uptake distributions"]
-    B["Individual PET-KLS modelling: Regional distribution similarity"]
-    C["Subject-specific PET-KLS networks"]
-
-    D["Network topology"]
-    E["Disease-time modelling"]
-
-    D1["Edges"]
-    D2["Nodal metrics"]
-    D3["Global graph properties"]
-
-    E1["SILA disease time"]
-    E2["GAM trajectories"]
-
-    F["Spatiotemporal network reorganization"]
-
-    G["Microstructural characterization"]
-    H["Spatial biological associations"]
-
-    I["Biological interpretation of amyloid network progression"]
-
-    A --> B --> C
-
-    C --> D
-    C --> E
-
-    D --> D1
-    D --> D2
-    D --> D3
-
-    E --> E1
-    E --> E2
-
-    D1 --> F
-    D2 --> F
-    D3 --> F
-    E1 --> F
-    E2 --> F
-
-    F --> G
-    F --> H
-
-    G --> I
-    H --> I
-
-    classDef pet fill:#DDF4F3,stroke:#008B8B,stroke-width:2px,color:#000000
-    classDef topology fill:#FFF0D9,stroke:#D97706,stroke-width:2px,color:#000000
-    classDef temporal fill:#E8EAFE,stroke:#4F46E5,stroke-width:2px,color:#000000
-    classDef biology fill:#F2E8FA,stroke:#8A2BE2,stroke-width:2px,color:#000000
-    classDef synthesis fill:#E7F4EA,stroke:#4C956C,stroke-width:2px,color:#000000
-
-    class A,B,C pet
-    class D,D1,D2,D3 topology
-    class E,E1,E2 temporal
-    class G,H biology
-    class F,I synthesis
-
-```
+![PET-KLS analysis workflow](https://raw.githubusercontent.com/PET-KLS/.github/main/profile/assets/PETKLS_analysis_workflow.svg)
 
 ## Data availability
 
