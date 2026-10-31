@@ -164,15 +164,6 @@ flowchart TD
 
 ```
 
-
-## Related publication
-
-The PET-KLS repositories accompany the following manuscript:
-
-> Monteiro S, Arunachalam P, Pieperhoff L, Tranfa M, Masserini F, Ritchie C, Boada M, Marquié M, Vijverberg J, Vandenberghe R, Hanseeuw BJ, Visser PJ, Frisoni GB, Stephens A, Farrar G, Pardini M, Roccatagliata L, Jessen F, Salvadó G, Vállez-García D, Pontillo G, Luckett ES, Cole JH, Barkhof F, Wink AM, Collij LE, Lorenzini L. Amyloid PET similarity networks in preclinical Alzheimer’s disease reveal early dynamic topological reorganization. *Brain Communications*. Manuscript under review. 2026.
-
-The citation will be updated with the final publication year, volume, article identifier and DOI following publication.
-
 ## Data availability
 
 PET-KLS was developed using amyloid-PET data from the
