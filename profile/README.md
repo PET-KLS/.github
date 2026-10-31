@@ -36,13 +36,12 @@ Regional PET-intensity distributions are compared using symmetric Kullback–Lei
 > **Interpretation:** PET-KLS networks quantify pairwise distributional similarity between the estimated probability distributions of voxelwise amyloid-PET intensity values across brain regions.
 >
 
-```html
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PET-KLS/.github/main/profile/assets/PETKLS_workflow_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PET-KLS/.github/main/profile/assets/PETKLS_workflow_light.svg">
   <img alt="PET-KLS workflow: network construction, topology analysis and spatiotemporal brain mapping" src="https://raw.githubusercontent.com/PET-KLS/.github/main/profile/assets/PETKLS_workflow_light.svg" width="100%">
 </picture>
-```
+
 ## Pipeline and repositories
 
 PET-KLS is organized as three successive and interoperable repositories.
